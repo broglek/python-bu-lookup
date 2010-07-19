@@ -1,0 +1,6 @@
+bu-lookup (0.3) unstable; urgency=low
+
+  * Initial debian packaging
+
+ -- Kyle Brogle <broglek@bu.edu>  Mon, 19 Jul 2010 18:03:27 -0400
+

@@ -1,0 +1,14 @@
+Source: bu-lookup
+Section: python
+Priority: optional
+Maintainer: Kyle Brogle <broglek@bu.edu>
+Build-Depends: cdbs, debhelper (>= 7), python-all-dev, python-support, python-setuptools
+Standards-Version: 3.8.4
+XS-Python-Version: all
+
+Package: python-bu-lookup
+Architecture: any
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, python-phquery
+Provides: ${python:Provides}
+Description: Boston University User Query Module
+ A Python module to provide user info populated from ph/qi given a username
